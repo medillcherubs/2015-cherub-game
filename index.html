@@ -21,7 +21,7 @@
   <h2 class="option" data-jpoints="0" data-spoints="2" data-spitlists="0" data-show=".question1b" data-hide=".question1">Breakfast at Hinman.</h2>
   <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question1c" data-hide=".question1">This is nuts. I'm going back to sleep.</h2>
    <div class="mediatable sunrise">
-   
+
       <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/IMG_1478-e1438108781481.jpg"</img>
       <h3 class="caption">Cherubs arise in the wee hours of the morn to gaze at the sunrise. Photo by Jennifer Chen.</h3>
     </div>
@@ -30,9 +30,7 @@
   <h1>The morning breeze kept you cool as you ran on the lakefill. The sunlight gleamed off the lake, and the sky was clear enough to see the outline of the Chicago skyline. Breathtaking!</h1>
   <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question2" data-hide=".question1a">Ahhh, yes.</h2>
    <div class="mediatable exercise">
-      <video class="sunrise" width="500px" height="auto" controls>
-        <source src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/Running.mp4" type="video/mp4">
-      </video>
+      <iframe class="sunrise" src="https://player.vimeo.com/video/134808844?title=0&byline=0&portrait=0" width="340" height="191" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <h3 class="caption">Many cherubs take advantage of the paths along the lake for morning jogs. Video by Jennifer Chen.</h3>
     </div>
 </div>
@@ -98,9 +96,7 @@
   <h1>You get to meet a few new friends who also decided to sit in the front row today. You hear and engage with the lecturer really well. And you're among the first in line to ask the guest questions at the end of the class.</h1>
   <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question3" data-hide=".question2b">Awesome.</h2>
    <div class="mediatable lecturevid">
-      <video width="400" height="auto" controls>
-        <source src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/lecture.m4v" type="video/mp4">
-     </video>
+      <iframe class="sunrise" src="https://player.vimeo.com/video/134808935?title=0&byline=0&portrait=0" width="340" height="191" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <h3 class="caption">Guest lecturers often come to speak to cherubs throughout the daily schedule. Video by Danielle Malkin.</h3>
    </div>
 </div>
@@ -166,7 +162,7 @@
 <div class="question minigame2a">
   <h1>You made it--barely. You live life on the wild side.</h1>
   <h2 class="option" data-jpoints="1" data-spoints="0" data-spitlists="0" data-show=".question5" data-hide=".minigame2a">Probably shouldn't make it a habit...</h2>
- 
+
 </div>
 <div class="question minigame2b">
   <h1>You avoided the cars, but a CA came out of the dorm just as you were crossing. You're spitlisted!</h1>
@@ -200,7 +196,7 @@
   <h1>It was a little scary, but you got to feel like you were on TV! Plus, you got a professional-grade live shot out of it.</h1>
   <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question6" data-hide=".question5aa">That was cool!</h2>
   <div class="mediatable broadcast1">
-      <video class="sunrise"> 
+      <video class="sunrise">
              <source src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/brodcast.m4v" width='400px' controls></source>
       </video>
       <h3 class="caption">Above is a live shot of 2015 cherub Daera Thomas, who chose to complete the challenge without notes. Video by Alexandria Johnson.</h3>
@@ -458,7 +454,7 @@ h2:hover{
   background: #403880;
   color: white;
   font-style: bold;
-  width: 500px; 
+  width: 500px;
 }
 .points{
  padding-left: 10px;
@@ -491,6 +487,7 @@ h2:hover{
 }
 .question{
   display: none;
+  min-height: 350px;
 }
 .question1{
   display: block;
@@ -500,7 +497,7 @@ h2:hover{
   border-color: #FFE0E0;
   height: 500px;
   width: 330px;
-  position: absolute; 
+  position: absolute;
   top: 70px;
   left: 550px;
 }
@@ -509,7 +506,7 @@ h2:hover{
   border-color: #FFE0E0;
   height: 200px;
   width: 330px;
-  position: absolute; 
+  position: absolute;
   top: 70px;
   left: 550px;
 }
@@ -565,7 +562,7 @@ h2:hover{
 }
 </style>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js">
-  
+
 </script>
 <script>
   var jpoints = 0;
@@ -611,14 +608,14 @@ $(".backpack").click(function(){
      timeLeft=10;
      clicks=0;
      timer=null
-   }     
+   }
  }, 1000)}
 })
   $(".jpointsscore").text(jpoints );
   $(".spointsscore").text(spoints );
   $(".spitlistscore").text(spitlists );
 $(".totalscore").text(total);
-// Answer A 
+// Answer A
 $(".option").click(function(){
  //alert("hello")
   jpoints = jpoints+Number ($(this).attr("data-jpoints"));
@@ -675,7 +672,7 @@ $(".road").click(function(){
      timeLeft2=12;
      clicks=0;
      timer2=null
-   }     
+   }
  }, 1000)}
 })
 
@@ -708,9 +705,9 @@ $(".andys").click(function(){/*placeholder*/
      timeLeft3=15;
      clicks=0;
      timer3=null;
-   }     
+   }
  }, 1000)}
 })
 </script>
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.5/pym.min.js"></script> <script> $(function(){ var pymChild = new pym.Child({polling: 500}); }); </script> 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.5/pym.min.js"></script> <script> $(function(){ var pymChild = new pym.Child({polling: 500}); }); </script>
 
