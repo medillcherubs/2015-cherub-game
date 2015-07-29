@@ -1,3 +1,717 @@
+ <div class="header">
+  <div class="logo" style="text-align: left"><img src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/cherub-sims-logo.png" class="logo" style="position: static; top: 0px; height: 240px"></div>
+  <div class="points" style="text-align: center">
+    <div class="jpoints">
+      <p>Journalism Points: <span class="jpointsscore"></span></p>
+    </div>
+    <div class="social">
+      <p>Social Points: <span class="spointsscore"></span></p>
+    </div>
+    <div class="spitlists">
+      <p>Spitlists: <span class="spitlistscore"></span></p>
+    </div>
+    <div class="total">
+      <p>Total: <span class="totalscore"></span></p>
+    </div>
+  </div>
+</div>
+<div class="question question1">
+  <h1>Good morning, and welcome to cherubs! You've got a big day ahead of you. What's first on the agenda?</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="1" data-spitlists="0" data-show=".question1a" data-hide=".question1">Exercise. Up and at 'em.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="2" data-spitlists="0" data-show=".question1b" data-hide=".question1">Breakfast at Hinman.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question1c" data-hide=".question1">This is nuts. I'm going back to sleep.</h2>
+   <div class="mediatable sunrise">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/IMG_1478-e1438108781481.jpg"</img>
+      <h3 class="caption">Cherubs arise in the wee hours of the morn to gaze at the sunrise. Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question question1a">
+  <h1>The morning breeze kept you cool as you ran on the lakefill. The sunlight gleamed off the lake, and the sky was clear enough to see the outline of the Chicago skyline. Breathtaking!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question2" data-hide=".question1a">Ahhh, yes.</h2>
+   <div class="mediatable exercise">
+      <video class="sunrise" width="500px" height="auto" controls>
+        <source src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Running.mp4" type="video/mp4">
+      </video>
+      <h3 class="caption">Many cherubs take advantage of the paths along the lake for morning jogs. Video by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question question1b">
+  <h1>You eat breakfast at Hinman with a couple of friends and snag that last blueberry muffin. Yum!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question2" data-hide=".question1b">Indeed.</h2>
+<div class="mediatable breakfast">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/image2.jpg"</img>
+      <h3 class="caption">Breakfast is the most important meal of the day--especially for busy cherubs. Photo by Emily Kim.</h3>
+    </div>
+</div>
+<div class="question question1c">
+  <h1>You accidentally turned your alarm off instead of hitting snooze. Suddenly, your roommate shakes you awake. You both have five minutes until class starts!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".minigame1" data-hide=".question1c">Oh no, I have to get dressed!</h2>
+  <div class="mediatable overslept">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/IMG_0032.jpg"</img>
+      <h3 class="caption">Keeping track of your schedule and setting alarms accordingly is key. Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question minigame1">
+  <div><img src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/backpack.png" class="backpack" data-win=".minigame1a" data-lose=".minigame1b" data-hide=".minigame1"></div>
+  <div class="timer">
+    <h3>
+    Time: <span class="timeLeft"> </span>
+    Clicks: <span class="clicks"> </span>
+  </h3>
+  </div>
+  <div class="directions">
+    <h1>You're in danger of being late for class. Pack your backpack by clicking it as fast as you can. You have 10 seconds to press the backpack at least 50 times. Good luck!</h1>
+  </div>
+</div>
+<div class="question minigame1a">
+  <h1>Nice, you got ready just in time! You sprinted to the lecture and arrived with a minute to spare.</h1>
+  <h2 class="option" data-jpoints="1" data-spoints="0" data-spitlists="0" data-show=".question2" data-hide=".minigame1a">That was a close one!</h2>
+  <div class="mediatable rogerhappy">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/LemmonsUSEDBYLemmons-02.jpg"</img>
+      <h3 class="caption">Make the instructors proud! Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question minigame1b">
+  <h1>You didn't get ready in time! You showed up late to the lecture, and the CAs spitlisted you.
+</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="1" data-show=".question2" data-hide=".minigame1b">NOOooooOOOooooOO!</h2>
+    <div class="mediatable rogersad">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/LemmonsUSEDBYLemmons-03.jpg"</img>
+      <h3 class="caption">Roger is disappointed. Photo by Hannah Lemmons.</h3>
+    </div>
+</div>
+<div class="question question2">
+  <h1>It's 9 a.m., and that means it's time for your first lecture of the day. You walk over to the lecture room in Fisk Hall. Where will you sit?</h1>
+  <h2 class="option" data-jpoints="1" data-spoints="2" data-spitlists="0" data-show=".question2a" data-hide=".question2">I see a couple of my friends in the back. I'll go sit with them.</h2>
+  <h2 class="option" data-jpoints="2" data-spoints="1" data-spitlists="0" data-show=".question2b" data-hide=".question2">I'll go sit in the front today to mix it up a bit.<h2>
+    <div class="mediatable fiskpic">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Levy1USEDBYLemmons-e1438122100797.jpg"></img>
+      <h3 class="caption">On normal days, lectures happen at 9 in the morning and cover anything from journalism basics to freelancing and networking. Photo by Jane Levy.</h3>
+    </div>
+  </div>
+<div class="question question2a">
+  <h1>You learned about another interesting topic in journalism, and you got to share a couple of laughs and notes with your friends.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question3" data-hide=".question2a">Right on.</h2>
+</div>
+<div class="question question2b">
+  <h1>You get to meet a few new friends who also decided to sit in the front row today. You hear and engage with the lecturer really well. And you're among the first in line to ask the guest questions at the end of the class.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question3" data-hide=".question2b">Awesome.</h2>
+   <div class="mediatable lecturevid">
+      <video width="400" height="auto" controls>
+        <source src="http://www.cherubs2015.org/wp-content/uploads/2015/07/lecture.m4v" type="video/mp4">
+     </video>
+      <h3 class="caption">Guest lecturers often come to speak to cherubs throughout the daily schedule. Video by Danielle Malkin.</h3>
+   </div>
+</div>
+<div class="question question3">
+  <h1>It's time for lunch. Where will you go?</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="3" data-spitlists="0" data-show=".question3a" data-hide=".question3">It's such a beautiful day. I'll go tan at the beach. I can eat later.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="1" data-spitlists="0" data-show=".question3b" data-hide=".question3">I'll go to the dining hall at 1835 Hinman for lunch.<h2>
+  <h2 class="option" data-jpoints="" data-spoints="2" data-spitlists="0" data-show=".question3c" data-hide=".question3">I'll head downtown. I want to try out some Evanston restaurants.<h2>
+</div>
+<div class="question question3a">
+  <h1>The sand feels great against your toes. But your stomach keeps growling. Maybe you shouldn't have skipped lunch...</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question4" data-hide=".question3a">True :C </h2>
+  <div class="mediatable beach">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/image1-e1438122553878.jpg"</img>
+      <h3 class="caption">With the Northwestern University Beach just a two-minute walk from the dorm, cherubs can easily take a tanning break. Photo by Alex Schwartz.</h3>
+    </div>
+</div>
+<div class="question question3b">
+  <h1>You get to Hinman before the theater cherubs and didn't even have to wait in line. Take that, yoga pants!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question4" data-hide=".question3b">Yaaasss.</h2>
+  <div class="mediatable hinmanlunch">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/TENG_0786USEDBYLemmons-e1438122740677.jpg"</img>
+      <h3 class="caption">The theater cherubs swarm Hinman at 11:30 every morning. Luckily, you got there just before them to chow down on some classic college cuisine. Photo by Jasmine Teng.</h3>
+    </div>
+</div>
+<div class="question question3c">
+  <h1>It was a little expensive, but oh-so-delicious.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question4" data-hide=".question3c">Yes, it was.</h2>
+  <div class="mediatable downtownlunch">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/bokor-economyUSEDBYLemmons-e1438122785352.jpg"</img>
+      <h3 class="caption">Evanston restaurants, such as Farmhouse, are quite popular among cherubs. Photo by Livia Bokor.</h3>
+    </div>
+</div>
+<div class="question question4">
+  <h1>It's time to head over to Fisk, but you're running late. How will you get across Sheridan Road?</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question4a" data-hide=".question4">Use the crosswalk, of course. I'm a law-abiding pedestrian.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".minigame2" data-hide=".question4">What's the harm in jaywalking? #thuglyfe</h2>
+  <div class="mediatable sheridanroad">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/SChenUSEDBYLemmons-e1438122971540.jpg"</img>
+      <h3 class="caption">Staff members encourage students to use the crosswalk for safety. Photo by Shawna Chen.</h3>
+    </div>
+</div>
+<div class="question question4a">
+  <h1>Good job! You had no problem getting to Fisk on time.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5" data-hide=".question4a">Great!</h2>
+  <div class="mediatable rogerhappy">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/LemmonsUSEDBYLemmons-02-e1438123085410.jpg"</img>
+      <h3 class="caption">Roger approves of your decision not to jaywalk. Photo by Hannah Lemmons.</h3>
+    </div>
+</div>
+<div class="question minigame2">
+  <div class="directions">
+    <h1>Jaywalking is a spitlist-able offense! Make your way across Sheridan Road, but a CA will catch you if you are too slow! You have 15 seconds, and you must press the pair of shoes at least 70 times. The timer starts on your first click. Good luck!</h1>
+  </div>
+  <div><img src="http://www.cherubs2015.org/wp-content/uploads/2015/07/street.png" class="road" data-win=".minigame2a" data-lose=".minigame2b" data-hide=".minigame2"></div>
+  <div class="timer2">
+    <h3>
+      Time: <span class="timeLeft2"> </span>
+      Clicks: <span class="clicks"> </span>
+    </h3>
+  </div>
+</div>
+<div class="question minigame2a">
+  <h1>You made it--barely. You live life on the wild side.</h1>
+  <h2 class="option" data-jpoints="1" data-spoints="0" data-spitlists="0" data-show=".question5" data-hide=".minigame2a">Probably shouldn't make it a habit...</h2>
+ 
+</div>
+<div class="question minigame2b">
+  <h1>You avoided the cars, but a CA came out of the dorm just as you were crossing. You're spitlisted!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="1" data-show=".question5" data-hide=".minigame2b">Oh NOOooooOOOooooOO!
+</h2>
+  <div class="mediatable rogersad">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/LemmonsUSEDBYLemmons-03.jpg"</img>
+      <h3 class="caption">Roger is disappointed. You must feel bad. Photo by Hannah Lemmons.</h3>
+    </div>
+</div>
+<div class="question question5">
+  <h1>Workshops are on the schedule today. Which one will you attend?</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question5a" data-hide=".question5">Broadcast lab with Sarahmaria. I want to learn how to produce news for television.</h2>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question5b" data-hide=".question5">Ethics class with Roger. It's time to test my journalistic integrity.</h2>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question5d" data-hide=".question5">High school newspaper critique with John Kupetz. My paper's going to be better than ever this year.</h2>
+  <div class="mediatable workshops">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/ASchwartz_02USEDBYLemmons.jpg"></img>
+      <h3 class="caption">A typical week schedule for cherubs. Photo by Alex Schwartz.</h3>
+    </div>
+</div>
+<div class="question question5a">
+  <h1>Welcome to the broadcast lab. We're doing a 1-minute live shot to practice your anchoring skills. Do you want to perform the live shot for the camera, or do you want to watch?</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question5aa" data-hide=".question5a">Let's go on the air. I'm pumped!</h2>
+  <h2 class="option" data-jpoints="1" data-spoints="0" data-spitlists="0" data-show=".question5ab" data-hide=".question5a">I'm a little nervous about speaking in front of a camera. I'll watch.</h2>
+  <div class="mediatable broadcaststill">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/JChen_04USEDBYLemmons-e1438123261569.jpg"></img>
+      <h3 class="caption">The Northwestern News Network broadcast studio is used by cherubs during the summer for broadcast workshops. Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question question5aa">
+  <h1>It was a little scary, but you got to feel like you were on TV! Plus, you got a professional-grade live shot out of it.</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question6" data-hide=".question5aa">That was cool!</h2>
+  <div class="mediatable broadcast1">
+      <video class="sunrise"> 
+             <source src="http://www.cherubs2015.org/wp-content/uploads/2015/07/brodcast.m4v" width='400px' controls></source>
+      </video>
+      <h3 class="caption">Above is a live shot of 2015 cherub Daera Thomas, who chose to complete the challenge without notes. Video by Alexandria Johnson.</h3>
+    </div>
+</div>
+<div class="question question5ab">
+  <h1>You didn't take a chance on camera, but you realized after the class that the best way to learn is by taking risks. At least you learned how to make a good news broadcast.</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question6" data-hide=".question5ab">Ok.</h2>
+  <div class="mediatable broadcast2">
+     <video class="sunrise" width='400px' controls> 
+             <source src="http://www.cherubs2015.org/wp-content/uploads/2015/07/brodcast.m4v" type="video/mp4">
+      </video>
+      <h3 class="caption">Above is a live shot of 2015 cherub Daera Thomas, who chose to complete the challenge without notes. Video by Alexandria Johnson.</h3>
+    </div>
+</div>
+<div class="question question5b">
+  <h1>Today, we’re talking about libel in journalism. Roger writes one word on the blackboard and asks you to define it. What is “libel” according to Illinois state law?</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5ba" data-hide=".question5b">When you make a reputation-damaging statement.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5bb" data-hide=".question5b">When you write defamatory statements.
+</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5bc" data-hide=".question5b">When you both say and write something, whether true or untrue, about someone that causes them harm.</h2>
+  <div class="mediatable libel">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/ASchwartz_01USEDBYLemmons-e1438123480923.jpg"</img>
+      <h3 class="caption">There are three separate journalism ethics workshops, including one about how to identify and avoid libelous reporting. Photo by Alex Schwartz.</h3>
+  </div>
+</div>
+<div class="question question5ba">
+  <h1>Nope, that's not correct. Try again.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0">When you make a reputation-damaging statement.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5bb" data-hide=".question5ba">When you write defamatory statements.
+</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0">When you both say and write something, whether true or untrue, about someone that causes them harm.</h2>
+  <div class="mediatable rogersad">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/ASchwartz_01USEDBYLemmons-e1438123480923.jpg"</img>
+      <h3 class="caption">There are three separate journalism ethics workshops, including one about how to identify and avoid libelous reporting. Photo by Alex Schwartz.</h3>
+  </div>
+</div>
+<div class="question question5bb">
+  <h1>Correct! Roger thinks you're pretty cool for knowing the definition of libel...</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question6" data-hide=".question5bb">Good to know.</h2>
+  <div class="mediatable rogerhappy">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/LemmonsUSEDBYLemmons-02-e1438123085410.jpg"</img>
+      <h3 class="caption">Yay! You get the thumbs up from Roger. Photo by Hannah Lemmons.</h3>
+</div>
+</div>
+<div class="question question5bc">
+  <h1>Not quite. Try again.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5b" data-hide=".question5bc">When you say something bad about someone that hurts their reputation.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5bb" data-hide=".question5bc">When you write something untrue about someone that causes them harm.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5b" data-hide=".question5bc">When you both say and write something, whether true or untrue, about someone that causes them harm.</h2>
+  <div class="mediatable rogersad">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/ASchwartz_01USEDBYLemmons-e1438123480923.jpg"</img>
+      <h3 class="caption">There are three separate journalism ethics workshops, including one about how to identify and avoid libelous reporting. Photo by Alex Schwartz.</h3>
+</div>
+</div>
+<div class="question question5d">
+  <h1>Try to decipher Kupetz' illegible edits in the picture to the right.</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question5db" data-hide=".question5d">"Avoid buried walls--for square pic"</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5da" data-hide=".question5d">"Avoid brick walls--firing squad pic"</h2>
+  <div class="mediatable2 kupetzpaper">
+      <img class="paper" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/kupetz-e1438111385579.jpg" </img>
+     <h3 class="caption">Instructor John Kupetz has a penchant for green pens. Photo by Alex Schwartz.</h3>
+    </div>
+</div>
+<div class="question question5da">
+  <h1>Correct! Now your newspaper will be better than ever.</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="0" data-spitlists="0" data-show=".question6" data-hide=".question5da">Noice noice.</h2>
+  <div class="mediatable2 kupetzpaper">
+      <img class="paper" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/kupetz-e1438111385579.jpg"</img>
+     <h3 class="caption">Instructor John Kupetz has a penchant for green pens. Photo by Alex Schwartz.</h3>
+    </div>
+</div>
+<div class="question question5db">
+  <h1>No, I don't think that's what it says. Try again.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5db">"Avoid buried walls--for square pic"</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question5da" data-hide=".question5db">"Avoid brick walls--firing squad pic"</h2>
+  <div class="mediatable2 kupetzpaper">
+      <img class="paper" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/kupetz-e1438111385579.jpg"</img>
+    <h3 class="caption">Instructor John Kupetz has a penchant for green pens. Photo by Alex Schwartz.</h3>
+    </div>
+</div>
+<div class="question question6">
+  <h1>That was a fun workshop. You learned a lot. But you have a story due at 7 tonight. Where will you work on it?</h1>
+  <h2 class="option" data-jpoints="1" data-spoints="2" data-spitlists="0" data-show=".question6a" data-hide=".question6">I'll go to the computer lab with a few friends. That way, we can help each other if we need it.</h2>
+  <h2 class="option" data-jpoints="1" data-spoints="0" data-spitlists="0" data-show=".question6b" data-hide=".question6">I'll go to my dorm room. I can put on some nice working music and it'll be quiet and peaceful.</h2>
+  <div class="mediatable onlaptop">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/hahn_1USEDBYLemmons.jpg"></img>
+      <h3 class="caption">2015 cherub Catherine Kim works on a story in CRC. Photo by Sam Hahn.</h3>
+    </div>
+</div>
+<div class="question question6a">
+  <h1>Great idea! The computer lab is a great place to make friends, and you finish your story a little early.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question7" data-hide=".question6a">Woo-hoo!</h2>
+  <div class="mediatable complab">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/image-e1438135447253.jpg"</img>
+      <h3 class="caption">During web week, members of the tech and academic teams complete their stories before the content deadline. The computer labs may be crazy, but they're an essential part of cherub life. Photo by Joanne Lee.</h3>
+    </div>
+</div>
+<div class="question question6b">
+  <h1>Your room is quiet, but the forces of napping and Netflix lead you astray. You have a little trouble working.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="-1" data-spitlists="0" data-show=".question7" data-hide=".question6b">Oh well. I'll try to work with my friends next time.</h2>
+  <div class="mediatable netflix">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/laffreyUSEDBYLemmons-e1438134758468.jpg"</img>
+      <h3 class="caption">Sometimes, the power of friendship at cherubs gets too overwhelming. 2015 cherub Natalie Kahn works on her trend story undisturbed. Photo by Anna Laffrey.</h3>
+  </div>
+</div>
+<div class="question question7">
+  <h1>Now that your story is turned in, it's time for dinner. Where will you go?</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="3" data-spitlists="0" data-show=".question7a" data-hide=".question7">A group of cherubs is going into downtown Evanston to eat. I'll go with them.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="2" data-spitlists="0" data-show=".question7b" data-hide=".question7">I'll go to Hinman. It's prepaid, and it is mac and cheese night after all.</h2>
+</div>
+<div class="question question7a">
+    <h1>Mmm...fooood. You check your phone to see what time it is. Uh-oh--you don't have enough time to get back to McCormick for the evening activity. You've been spitlisted.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="3" data-spitlists="1" data-show=".question8" data-hide=".question7a">Urghlaflurgh.</h2>
+</div>
+<div class="question question7b">
+  <h1>You have a meal with your friends and decide to walk down to the beach afterwards to take some quality sunset pictures.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="3" data-spitlists="0" data-show=".question8" data-hide=".question7b">It's lit.</h2>
+  <div class="mediatable sunsetbeach">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/image1-e1438135643601.jpg"</img>
+      <h3 class="caption">As cherubs learn from instructor Sarahmaria, the golden hour, which occurs an hour before sunset, is one of the best times to take pictures. Photo by Alex Schwartz.</h3>
+    </div>
+</div>
+<div class="question question8">
+  <h1>Tonight is movie night. We're watching the classic film To Kill A Mockingbird with commentary from instructor John Kupetz. Do you want to stay for the discussion after the movie?</h1>
+  <h2 class="option" data-jpoints="2" data-spoints="1" data-spitlists="0" data-show=".question8a" data-hide=".question8">I'll stay. I'm interested to see what John thinks.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="1" data-spitlists="0" data-show=".question8b" data-hide=".question8">I'll go back to the dorm. I don't feel like talking.</h2>
+   <div class="mediatable movie">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/Yi_0310USEDBYLemmons-e1438135840832.jpg"</img>
+      <h3 class="caption">Cherubs watch To Kill A Mockingbird. Photo by Ryan Yi.</h3>
+    </div>
+</div>
+<div class="question question8a">
+  <h1>You had a really insightful conversation with John Kupetz. He even let you hold his vintage movie poster!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question9" data-hide=".question8a">Wow!</h2>
+  <div class="mediatable kupetztalk">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/levy-exp.jpg"</img>
+      <h3 class="caption">Look how happy you made Kupetz. He loves his classic films. Photo by Jane Levy.</h3>
+    </div>
+</div>
+<div class="question question8b">
+  <h1>You sat in the common room with only a couple of friends...kinda boring. Never miss out on a conversation with Kupetz!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question9" data-hide=".question8b">Aw, shucks.</h2>
+</div>
+<div class="question question9">
+  <h1>After watching To Kill A Mockingbird, you crave some frozen custard. Time to go to town and get some dessert.</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="2" data-spitlists="0" data-show=".question10" data-hide=".question9">Sounds cool (literally).</h2>
+   <div class="mediatable custard">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/JChen_02USEDBYLemmons-e1438136260972.jpg"</img>
+      <h3 class="caption">The frozen custard at Andy's in downtown Evanston is a delicacy among cherubs. Bask in its glory. Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question question10">
+  <h1>Whoa, that's a long line at Andy's! Are you sure you still want a frozen concrete?</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="3" data-spitlists="1" data-show=".question10a" data-hide=".question10">Of course I do! I want my concrete, and I'm willing to wait for it.</h2>
+  <h2 class="option" data-jpoints="0" data-spoints="1" data-spitlists="0" data-show=".question11" data-hide=".question10">Eh...it's not worth it. I'll walk back to the dorm.</h2>
+  <div class="mediatable andysline">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/JChen_03USEDBYLemmons.jpg"</img>
+      <h3 class="caption">Aaarggh! The horror! Some say it's worth it, some just run away. Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question question10a">
+  <h1>Uh-oh. Your quest for frozen custard has taken a drastic turn. You waited in line too long, and you have 10 minutes until check-in at CRC. Hurry!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".minigame3" data-hide=".question10a">Oh no...</h2>
+    </div>
+<div class="question minigame3">
+  <div class="directions">
+    <h1>Time to get those fingers flying. Click as fast as you can to finish your delicious concrete and make it back for check-in on time. You have 20 seconds to click 100 times. The timer starts on your first click. Good luck!</h1>
+  </div>
+  <div><img src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/andysconcrete.png" class="andys" data-win=".minigame3a" data-lose=".minigame3b" data-hide=".minigame3"></div>
+  <div class="timer3">
+    <h3>
+      Time: <span class="timeLeft3"> </span>
+      Clicks: <span class="clicks"> </span>
+    </h3>
+  </div>
+</div>
+<div class="question minigame3a">
+  <h1>You're out of breath and a little sweaty, but you made it on time.</h1>
+  <h2 class="option" data-jpoints="1" data-spoints="0" data-spitlists="0" data-show=".question11" data-hide=".minigame3a">At least I got to work off that custard.</h2>
+</div>
+<div class="question minigame3b">
+  <h1>You were fast, but not fast enough. You're spitlisted!</h1>
+  <h2 class="option" data-jpoints="0" data-spoints="0" data-spitlists="1" data-show=".question11" data-hide=".minigame3b">NOOoOooOooOoOO!
+</h2>
+   <div class="mediatable rogersad">
+      <img class="sunrise" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/LemmonsUSEDBYLemmons-03.jpg"</img>
+      <h3 class="caption">Look at the pain you have caused Roger. His thumbs say it all. Photo by Hannah Lemmons.</h3>
+    </div>
+</div>
+<div class="question question11">
+  <h1>You get through check-in and you have an hour before you have to be back on your floor. Rest, little one. You've earned it.</h1>
+  <h2 class="option game-over" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question12" data-hide=".question11">How did I do?</h2>
+   <div class="mediatable sunset">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/IMG_1503.jpg"</img>
+      <h3 class="caption">And what would a simulation game about cherub life be without an artsy sunset picture? Photo by Jennifer Chen.</h3>
+    </div>
+</div>
+<div class="question question12">
+  <h1>Yay! You made it through a day of cherubs with a score of <span class="finalscore"></span>. What kind of cherub are you?</h1>
+  <h2 class="option reset" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question13" data-hide=".question12">Next</h2>
+  <div class="mediatable scoresheet">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/simspointchart.png"</img>
+      <h3 class="caption">Try again to get the highest score possible. Or the lowest--we won't judge. Graphic by Alex Schwartz.</h3>
+  </div>
+</div>
+<div class="question question13">
+  <h1>Now are you ready for the real deal?</h1>
+  <h2 class="option reset" data-jpoints="0" data-spoints="0" data-spitlists="0" data-show=".question1" data-hide=".question13">Play again</h2>
+  <div class="mediatable emptyfisk">
+      <img class="sunrise" src="http://cherubs.medill.northwestern.edu/2015/wp-content/uploads/sites/6/2015/07/image3.jpg"</img>
+      <h3 class="caption">Class dismissed. Photo by Joanne Lee.</h3>
+  </div>
+</div>
 
+<style>
+  body{
+  background-color: #FFF0F0;
+}
+.logo{
+  text-align: left;
+  width: 290px;
+  display: inline-block;
+  padding-top: 10px;
+}
+.header{
+  display: flex;
+  width: 530px;
+  height: 250px;
+}
+h1{
+  /*position: relative;
+  top: -200px;
+  right: -30px;*/
+  font-family: Palatino;
+  font-size: 20pt;
+  width: 500px;
+  border: ridge;
+  border-width: 6px;
+  border-color: #C3BCFF;
+  background: #E0D6DB;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding right: 10px;
+}
+h2{
+  font-family: Candara;
+  position: float;
+  padding-left: 15px;
+  font-size: 14pt;
+  top: -200px;
+  right: -40px;
+  width: 500px;
+}
+h2:hover{
+  background: #403880;
+  color: white;
+  font-style: bold;
+  width: 500px; 
+}
+.points{
+ padding-left: 10px;
+ display: inline-block;
+ width: 180px;
+}
+.jpoints{
+  font-family: Arial Black;
+  font-style: bold;
+  font-size: 16pt;
+  color: #625E7F;
+}
+.social{
+  font-family: Arial Black;
+  font-style: bold;
+  font-size: 16pt;
+  color: #4A1366;
+}
+.spitlists{
+  font-family: Arial Black;
+  font-style: bold;
+  font-size: 16pt;
+  color: #9E45CC;
+}
+.total{
+  font-family: Arial Black;
+  font-style: bold;
+  font-size: 16pt;
+  color: #493CB2;
+}
+.question{
+  display: none;
+}
+.question1{
+  display: block;
+}
+.mediatable{
+  border-style: groove;
+  border-color: #FFE0E0;
+  height: 500px;
+  width: 400px;
+  position: absolute; 
+  top: 70px;
+  left: 550px;
+}
+.mediatable2{
+  border-style: groove;
+  border-color: #FFE0E0;
+  height: 200px;
+  width: 525px;
+  position: absolute; 
+  top: 70px;
+  left: 550px;
+}
+.road{
+  height: 400px;
+  width: 1000px;
+  position: relative;
+  top: 50px;
+}
+.timer{
+  position: relative;
+  top: 0px;
+  width: 200px;
+  height: 30px;
+  font-family: Verdana;
+  font-style: bold;
+  font-style: italic;
+}
+.timer2{
+  position: relative;
+  top: 30px;
+  width: 200px;
+  height: 30px;
+  font-family: Verdana;
+  font-style: bold;
+  font-style: italic;
+}
+.backpack{
+  width: 200px;
+  height: auto;
+}
+.road{
+  width: 700px;
+  height: auto;
+}
+.andys{
+  width: 300px;
+  height: auto;
+}
+.sunrise{
+  width: 400px;
+  height: auto;
+}
+.caption{
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Arial;
+  font-size: 12pt;
+}
+.paper{
+  width: auto;
+  height: 200px;
+}
+</style>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js">
+  
+</script>
+<script>
+  var jpoints = 0;
+var spoints = 0;
+var spitlists = 0;
+var total = 0;
+var clicks = 0;
+var stillhastime = true;
+var timer;
+var timer2;
+var timer3;
+var timeLeft=10;
+var timeLeft2=15;
+var timeLeft3=20;
+$(".backpack").click(function(){
+ clicks = clicks+1;
+ console.log(clicks)
+ $(".clicks").text(clicks);
+  if(clicks>=50) {
+          $($(this).attr("data-win")).show();
+      $($(this).attr("data-hide")).hide();
+    clicks=0;
+    clearInterval(timer);
+  }
+ if(!timer) {
+   var self = this;
+   console.log("createnewtimer")
+   $(".timeLeft").text(timeLeft);
+   timer=setInterval(function(){
+  console.log(this);
+   timeLeft=timeLeft-1;
+     $(".timeLeft").text(timeLeft);
+   if(timeLeft<=0 && clicks<50) {
+     console.log("showlosingoutcome")
+             $($(self).attr("data-lose")).show();
+     $($(self).attr("data-hide")).hide();
+     clicks=0;
+   }
+   if (timeLeft<=0)
+   {
+     console.log("clearinterval")
+     clearInterval(timer);
+     timeLeft=10;
+     clicks=0;
+     timer=null
+   }     
+ }, 1000)}
+})
+  $(".jpointsscore").text(jpoints );
+  $(".spointsscore").text(spoints );
+  $(".spitlistscore").text(spitlists );
+$(".totalscore").text(total);
+// Answer A 
+$(".option").click(function(){
+ //alert("hello")
+  jpoints = jpoints+Number ($(this).attr("data-jpoints"));
+  spoints = spoints+Number ($(this).attr("data-spoints"));
+  spitlists = spitlists+Number ($(this).attr("data-spitlists"));
+  total = jpoints+spoints-5*spitlists;
+  console.log(jpoints);
+  $(".jpointsscore").text(jpoints);
+  $(".spointsscore").text(spoints);
+  $(".spitlistscore").text(spitlists);
+  $(".totalscore").text(total);
+  $($(this).attr("data-show")).show();
+  $($(this).attr("data-hide")).hide();
+
+})
+$(".game-over").click(function(){
+    $(".finalscore").text(total);
+})
+$(".reset").click(function(){
+  total=0; jpoints=0; spoints=0; spitlists=0;
+  $(".jpointsscore").text(jpoints);
+  $(".spointsscore").text(spoints);
+  $(".spitlistscore").text(spitlists);
+  $(".totalscore").text(total);
+})
+
+$(".road").click(function(){
+ clicks = clicks+1;
+ console.log(clicks)
+ $(".clicks").text(clicks);
+  if(clicks>=70) {
+          $($(this).attr("data-win")).show();
+      $($(this).attr("data-hide")).hide();
+    clicks=0;
+    clearInterval(timer2);
+  }
+ if(!timer2) {
+   var self = this;
+   console.log("createnewtimer")
+   $(".timeLeft2").text(timeLeft2);
+   timer2=setInterval(function(){
+  console.log(this);
+   timeLeft2=timeLeft2-1;
+     $(".timeLeft2").text(timeLeft2);
+   if(timeLeft2<=0 && clicks<70) {
+     console.log("showlosingoutcome")
+             $($(self).attr("data-lose")).show();
+     $($(self).attr("data-hide")).hide();
+   }
+   if (timeLeft2<=0)
+   {
+     console.log("clearinterval")
+     clearInterval(timer2);
+     timeLeft2=12;
+     clicks=0;
+     timer2=null
+   }     
+ }, 1000)}
+})
+
+$(".andys").click(function(){/*placeholder*/
+ clicks = clicks+1;
+ console.log(clicks)
+ $(".clicks").text(clicks);
+  if(clicks>=100) {
+          $($(this).attr("data-win")).show();
+      $($(this).attr("data-hide")).hide();
+    clearInterval(timer3);
+  }
+ if(!timer3) {
+   var self = this;
+   console.log("createnewtimer")
+   $(".timeLeft3").text(timeLeft3);
+   timer3=setInterval(function(){
+  console.log(this);
+   timeLeft3=timeLeft3-1;
+     $(".timeLeft3").text(timeLeft3);
+   if(timeLeft3<=0 && clicks<100) {
+     console.log("showlosingoutcome")
+     $($(self).attr("data-lose")).show();
+     $($(self).attr("data-hide")).hide();
+   }
+   if (timeLeft3<=0)
+   {
+     console.log("clearinterval")
+     clearInterval(timer3);
+     timeLeft3=15;
+     clicks=0;
+     timer3=null;
+   }     
+ }, 1000)}
+})
+</script>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.5/pym.min.js"></script> <script> $(function(){ var pymChild = new pym.Child({polling: 500}); }); </script> 
 
